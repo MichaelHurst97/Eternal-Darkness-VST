@@ -1,8 +1,16 @@
 # Eternal-Darkness-VST
 ## Distorted and Pitch-shifted Reverberation
-VST Effect Plugin to create ambient pads, pitched reverbs and muddied textures.
+VST Effect Plugin to create ambient pads, drones, pitched reverbs and muddied textures.
 
 ![Eternal_Darkness Screenshot](https://github.com/MichaelHurst97/Eternal-Darkness-VST/blob/main/Assets/Eternal_Darkness_Screenshot.PNG "Eternal Darkness Screenshot")
+
+## Demo:
+
+https://github.com/user-attachments/assets/85154fc1-e93e-48ff-b83b-120502c5e672
+
+
+https://github.com/user-attachments/assets/2349c4da-c284-4b96-be15-dd0877e90d22
+
 
 
 How to install
