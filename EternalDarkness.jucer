@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="rixVVr" name="Eternal Darkness" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" pluginVST3Category="Fx,Reverb"
+              pluginName="Eternal Darkness" pluginDesc="Distorted and Shifted Reverberation"
+              pluginManufacturer="Michael Hurst">
+  <MAINGROUP id="mekLJT" name="Eternal Darkness">
+    <GROUP id="{AFDEA2A8-1391-5ABA-769B-0EA5ED586A41}" name="Source">
+      <FILE id="UYYcKB" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="daFqDf" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="yvHvx5" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="zvCzev" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <GROUP id="{4888A6F5-1CE4-FA89-6BDB-5560D92BE1BF}" name="ui">
+        <FILE id="K4SxeA" name="UIComponentPaintHelper.cpp" compile="1" resource="0"
+              file="Source/ui/UIComponentPaintHelper.cpp"/>
+        <FILE id="eoBPPY" name="UIComponentPaintHelper.h" compile="0" resource="0"
+              file="Source/ui/UIComponentPaintHelper.h"/>
+        <FILE id="YmfN2N" name="UIComponentSlider.cpp" compile="1" resource="0"
+              file="Source/ui/UIComponentSlider.cpp"/>
+        <FILE id="VNOwGg" name="UIComponentSlider.h" compile="0" resource="0"
+              file="Source/ui/UIComponentSlider.h"/>
+        <FILE id="ycsbvV" name="UIControlsDspRack.cpp" compile="1" resource="0"
+              file="Source/ui/UIControlsDspRack.cpp"/>
+        <FILE id="gxWz3s" name="UIControlsDspRack.h" compile="0" resource="0"
+              file="Source/ui/UIControlsDspRack.h"/>
+        <FILE id="ztX1C9" name="UIControlsPlugin.cpp" compile="1" resource="0"
+              file="Source/ui/UIControlsPlugin.cpp"/>
+        <FILE id="xtQ02h" name="UIControlsPlugin.h" compile="0" resource="0"
+              file="Source/ui/UIControlsPlugin.h"/>
+        <FILE id="qxjGx8" name="UICustomLookAndFeel.h" compile="0" resource="0"
+              file="Source/ui/UICustomLookAndFeel.h"/>
+      </GROUP>
+      <GROUP id="{BB1E92CF-B100-1841-8814-B35873855047}" name="modells">
+        <FILE id="zJaqli" name="DspRack.cpp" compile="1" resource="0" file="Source/modells/DspRack.cpp"/>
+        <FILE id="qDmIFo" name="DspRack.h" compile="0" resource="0" file="Source/modells/DspRack.h"/>
+        <FILE id="j3NL7x" name="ModellDistortion.cpp" compile="1" resource="0"
+              file="Source/modells/ModellDistortion.cpp"/>
+        <FILE id="oud9Gv" name="ModellDistortion.h" compile="0" resource="0"
+              file="Source/modells/ModellDistortion.h"/>
+        <FILE id="b5q0jw" name="ModellDspPitchShift.cpp" compile="1" resource="0"
+              file="Source/modells/ModellDspPitchShift.cpp"/>
+        <FILE id="yZ1vPB" name="ModellDspPitchShift.h" compile="0" resource="0"
+              file="Source/modells/ModellDspPitchShift.h"/>
+        <FILE id="Z54sxH" name="ModellLPFilter.cpp" compile="1" resource="0"
+              file="Source/modells/ModellLPFilter.cpp"/>
+        <FILE id="FsqjN5" name="ModellLPFilter.h" compile="0" resource="0"
+              file="Source/modells/ModellLPFilter.h"/>
+        <FILE id="lyy8Gd" name="ModellReverb.cpp" compile="1" resource="0"
+              file="Source/modells/ModellReverb.cpp"/>
+        <FILE id="HX1QGX" name="ModellReverb.h" compile="0" resource="0" file="Source/modells/ModellReverb.h"/>
+      </GROUP>
+      <GROUP id="{7BC1F32D-9CD5-29D7-CCE1-16D95C35D005}" name="data">
+        <FILE id="sNVZ35" name="RobotoBlackItalic.ttf" compile="0" resource="1"
+              file="Assets/RobotoBlackItalic.ttf"/>
+      </GROUP>
+    </GROUP>
+    <GROUP id="{4FEF1C46-49B4-ED20-8D88-712C1C5B3004}" name="signalsmith-stretch">
+      <GROUP id="{356E681F-92B3-BFC5-6D92-DEDCB2DBF26C}" name="dsp">
+        <FILE id="dsXT8L" name="common.h" compile="0" resource="0" file="Source/signalsmith-stretch/dsp/common.h"/>
+        <FILE id="CAmhPV" name="curves.h" compile="0" resource="0" file="Source/signalsmith-stretch/dsp/curves.h"/>
+        <FILE id="Iqlaxa" name="delay.h" compile="0" resource="0" file="Source/signalsmith-stretch/dsp/delay.h"/>
+        <FILE id="Ez4HUZ" name="envelopes.h" compile="0" resource="0" file="Source/signalsmith-stretch/dsp/envelopes.h"/>
+        <FILE id="rDpfec" name="fft.h" compile="0" resource="0" file="Source/signalsmith-stretch/dsp/fft.h"/>
+        <FILE id="FW4T65" name="filters.h" compile="0" resource="0" file="Source/signalsmith-stretch/dsp/filters.h"/>
+        <FILE id="iExNIh" name="LICENSE.txt" compile="0" resource="1" file="Source/signalsmith-stretch/dsp/LICENSE.txt"/>
+        <FILE id="JStGpi" name="mix.h" compile="0" resource="0" file="Source/signalsmith-stretch/dsp/mix.h"/>
+        <FILE id="fhkKmz" name="perf.h" compile="0" resource="0" file="Source/signalsmith-stretch/dsp/perf.h"/>
+        <FILE id="Ykruc6" name="README.md" compile="0" resource="1" file="Source/signalsmith-stretch/dsp/README.md"/>
+        <FILE id="FupT9P" name="spectral.h" compile="0" resource="0" file="Source/signalsmith-stretch/dsp/spectral.h"/>
+        <FILE id="Jg1mlH" name="windows.h" compile="0" resource="0" file="Source/signalsmith-stretch/dsp/windows.h"/>
+      </GROUP>
+      <FILE id="D9SHBa" name="LICENSE.txt" compile="0" resource="1" file="Source/signalsmith-stretch/LICENSE.txt"/>
+      <FILE id="AopcOZ" name="README.md" compile="0" resource="1" file="Source/signalsmith-stretch/README.md"/>
+      <FILE id="j5uNjx" name="signalsmith-stretch.h" compile="0" resource="0"
+            file="Source/signalsmith-stretch/signalsmith-stretch.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="MBReverbDist"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Eternal Darkness"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
