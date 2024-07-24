@@ -7,10 +7,18 @@ VST Effect Plugin to create ambient pads, drones, pitched reverbs and muddied te
 ## Demo:
 
 Processed melody loop:
-https://github.com/user-attachments/assets/85154fc1-e93e-48ff-b83b-120502c5e672
+
+
+https://github.com/user-attachments/assets/4480b442-4878-4701-a6b2-d63abdb8b605
+
+
 
 Processed kick:
-https://github.com/user-attachments/assets/2349c4da-c284-4b96-be15-dd0877e90d22
+
+
+https://github.com/user-attachments/assets/daf913a3-6dd4-4d31-8efb-f54f717afce6
+
+
 
 
 
